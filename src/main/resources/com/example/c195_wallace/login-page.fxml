@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.c195_wallace.controllers.LoginPageController">
+    <Label fx:id="loginUsernameLbl" alignment="CENTER" layoutX="224.0" layoutY="115.0" text="loginUsernameLbl" />
+    <TextField fx:id="loginUsernameTF" layoutX="226.0" layoutY="143.0" />
+    <Label fx:id="loginPasswordLbl" layoutX="226.0" layoutY="192.0" text="loginPasswordLbl" />
+    <PasswordField fx:id="loginPasswordTF" layoutX="226.0" layoutY="214.0" />
+    <Button fx:id="loginBtn" layoutX="227.0" layoutY="264.0" onAction="#onLoginClick" prefHeight="31.0" prefWidth="61.0" text="loginBtn" />
+    <Button fx:id="cancelBtn" layoutX="314.0" layoutY="264.0" mnemonicParsing="false" onAction="#onCancelClick" prefHeight="31.0" prefWidth="61.0" text="cancelBtn" />
+    <Label fx:id="loginLocationLbl" contentDisplay="CENTER" layoutX="226.0" layoutY="309.0" prefHeight="17.0" prefWidth="221.0" text="loginLocationLbl" textAlignment="CENTER" />
+    <Label fx:id="loginWelcomeLbl" layoutX="224.0" layoutY="69.0" text="loginWelcomeLbl" />
+</AnchorPane>
